@@ -756,6 +756,29 @@ html {
   color: #fff;
   background-color: #9e4ea9;
   overflow: hidden;
+  /* Track */
+  /* Handle */
+}
+#es-allegra.es-allegra ::-webkit-scrollbar {
+  width: 12px !important;
+}
+#es-allegra.es-allegra ::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3) !important;
+  -webkit-border-radius: 10px !important;
+  -webkit-overflow-scrolling: auto;
+  border-radius: 10px !important;
+}
+#es-allegra.es-allegra ::-webkit-scrollbar-thumb {
+  -webkit-overflow-scrolling: auto;
+  border-radius: 10px !important;
+  background: #5d337a !important;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5) !important;
+}
+#es-allegra.es-allegra ::-webkit-scrollbar-thumb:window-inactive {
+  -webkit-overflow-scrolling: auto;
+  border-radius: 10px !important;
+  background: #5d337a !important;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5) !important;
 }
 #es-allegra.es-allegra img {
   max-width: 100%;
@@ -1331,6 +1354,7 @@ html {
   height: 100%;
   max-width: 180px;
   overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
   white-space: nowrap;
 }
 #es-allegra.es-allegra .es-calendar__img {
@@ -1671,7 +1695,7 @@ html {
   }
   #es-allegra.es-allegra .es-footer__warning {
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 @media (min-width: 840px) {
