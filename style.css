@@ -1079,56 +1079,56 @@ html {
 }
 #es-allegra.es-allegra .es-season__pollen--1 {
   left: 80px;
-  -webkit-animation: float-pollen-1 35s infinite;
-          animation: float-pollen-1 35s infinite;
+  -webkit-animation: float-pollen-1 25s infinite;
+          animation: float-pollen-1 25s infinite;
 }
 #es-allegra.es-allegra .es-season__pollen--2 {
   left: 300px;
   bottom: 0;
-  -webkit-animation: float-pollen-2 30s infinite;
-          animation: float-pollen-2 30s infinite;
+  -webkit-animation: float-pollen-2 20s infinite;
+          animation: float-pollen-2 20s infinite;
   -webkit-animation-delay: 5s;
           animation-delay: 5s;
 }
 #es-allegra.es-allegra .es-season__pollen--3 {
   left: 450px;
   bottom: 170px;
-  -webkit-animation: float-pollen-3 35s infinite;
-          animation: float-pollen-3 35s infinite;
+  -webkit-animation: float-pollen-3 25s infinite;
+          animation: float-pollen-3 25s infinite;
   -webkit-animation-delay: 2s;
           animation-delay: 2s;
 }
 #es-allegra.es-allegra .es-season__pollen--4 {
   left: 0;
   bottom: 50px;
-  -webkit-animation: float-pollen-4 30s infinite;
-          animation: float-pollen-4 30s infinite;
+  -webkit-animation: float-pollen-4 20s infinite;
+          animation: float-pollen-4 20s infinite;
   -webkit-animation-delay: 1s;
           animation-delay: 1s;
 }
 #es-allegra.es-allegra .es-season__pollen--5 {
   right: 0;
-  -webkit-animation: float-pollen-5 35s infinite;
-          animation: float-pollen-5 35s infinite;
+  -webkit-animation: float-pollen-5 25s infinite;
+          animation: float-pollen-5 25s infinite;
 }
 #es-allegra.es-allegra .es-season__pollen--6 {
   left: 65px;
-  -webkit-animation: float-pollen-1 35s infinite;
-          animation: float-pollen-1 35s infinite;
+  -webkit-animation: float-pollen-1 25s infinite;
+          animation: float-pollen-1 25s infinite;
 }
 #es-allegra.es-allegra .es-season__pollen--7 {
   left: 300px;
   bottom: 0;
-  -webkit-animation: float-pollen-2 30s infinite;
-          animation: float-pollen-2 30s infinite;
+  -webkit-animation: float-pollen-2 20s infinite;
+          animation: float-pollen-2 20s infinite;
   -webkit-animation-delay: 5s;
           animation-delay: 5s;
 }
 #es-allegra.es-allegra .es-season__pollen--8 {
   left: 320px;
   bottom: 170px;
-  -webkit-animation: float-pollen-3 35s infinite;
-          animation: float-pollen-3 35s infinite;
+  -webkit-animation: float-pollen-3 25s infinite;
+          animation: float-pollen-3 25s infinite;
   -webkit-animation-delay: 2s;
           animation-delay: 2s;
 }
