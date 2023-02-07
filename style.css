@@ -763,6 +763,85 @@ html {
 #es-allegra.es-allegra .es-kv {
   min-height: 400px;
   padding: 20px;
+  position: relative;
+}
+#es-allegra.es-allegra .es-kv__pollen {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background-color: #f3efb1;
+  border-radius: 50%;
+  z-index: 10;
+  bottom: 20px;
+  opacity: 0;
+}
+#es-allegra.es-allegra .es-kv__pollen--1 {
+  left: 80px;
+  -webkit-animation: float-pollen-1 35s infinite;
+          animation: float-pollen-1 35s infinite;
+}
+#es-allegra.es-allegra .es-kv__pollen--2 {
+  left: 300px;
+  bottom: 0;
+  -webkit-animation: float-pollen-2 30s infinite;
+          animation: float-pollen-2 30s infinite;
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+}
+#es-allegra.es-allegra .es-kv__pollen--3 {
+  left: 450px;
+  bottom: 170px;
+  -webkit-animation: float-pollen-3 35s infinite;
+          animation: float-pollen-3 35s infinite;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+#es-allegra.es-allegra .es-kv__pollen--4 {
+  left: 0;
+  bottom: 50px;
+  -webkit-animation: float-pollen-4 30s infinite;
+          animation: float-pollen-4 30s infinite;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+#es-allegra.es-allegra .es-kv__pollen--5 {
+  right: 0;
+  -webkit-animation: float-pollen-5 35s infinite;
+          animation: float-pollen-5 35s infinite;
+}
+#es-allegra.es-allegra .es-kv__pollen--6 {
+  left: 65px;
+  -webkit-animation: float-pollen-1 35s infinite;
+          animation: float-pollen-1 35s infinite;
+}
+#es-allegra.es-allegra .es-kv__pollen--7 {
+  left: 300px;
+  bottom: 0;
+  -webkit-animation: float-pollen-2 30s infinite;
+          animation: float-pollen-2 30s infinite;
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+}
+#es-allegra.es-allegra .es-kv__pollen--8 {
+  left: 320px;
+  bottom: 170px;
+  -webkit-animation: float-pollen-3 35s infinite;
+          animation: float-pollen-3 35s infinite;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+#es-allegra.es-allegra .es-kv__pollen--9 {
+  left: 15px;
+  bottom: 50px;
+  -webkit-animation: float-pollen-4 40s infinite;
+          animation: float-pollen-4 40s infinite;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+#es-allegra.es-allegra .es-kv__pollen--10 {
+  right: 20px;
+  -webkit-animation: float-pollen-5 45s infinite;
+          animation: float-pollen-5 45s infinite;
 }
 #es-allegra.es-allegra .es-kv--desktop {
   display: none;
@@ -823,6 +902,8 @@ html {
 #es-allegra.es-allegra .es-mainCtn {
   background-color: #9e4ea9;
   width: 100%;
+  z-index: 10;
+  position: relative;
 }
 #es-allegra.es-allegra .es-nav {
   display: flex;
@@ -989,6 +1070,7 @@ html {
 }
 #es-allegra.es-allegra .es-symptoms__claim--yellow {
   color: #f6cc30;
+  font-family: "Nexa-Heavy";
 }
 #es-allegra.es-allegra .es-doze {
   margin: 10px;
@@ -1441,7 +1523,7 @@ html {
   #es-allegra.es-allegra .es-about__title {
     text-transform: uppercase;
     font-family: "Nexa-Heavy";
-    font-size: 30px;
+    font-size: 40px;
   }
   #es-allegra.es-allegra .es-about__titleImg {
     max-width: 200px;
@@ -1473,24 +1555,37 @@ html {
     background-color: #853a92;
   }
   #es-allegra.es-allegra .es-symptoms__title {
-    font-size: 30px;
+    font-size: 40px;
+  }
+  #es-allegra.es-allegra .es-symptoms__textCtn {
+    min-width: 230px;
+    max-width: 230px;
+  }
+  #es-allegra.es-allegra .es-symptoms__listItem {
+    font-size: 18px;
+  }
+  #es-allegra.es-allegra .es-symptoms__claim {
+    font-size: 18px;
   }
   #es-allegra.es-allegra .es-doze {
     margin: 40px;
     background-color: #853a92;
   }
   #es-allegra.es-allegra .es-doze__title {
-    font-size: 30px;
+    font-size: 40px;
   }
   #es-allegra.es-allegra .es-doze__text {
-    font-size: 16px;
+    font-size: 18px;
+  }
+  #es-allegra.es-allegra .es-doze__claim {
+    font-size: 18px;
   }
   #es-allegra.es-allegra .es-season {
     margin: 40px;
     background-color: #853a92;
   }
   #es-allegra.es-allegra .es-season__title {
-    font-size: 30px;
+    font-size: 40px;
   }
   #es-allegra.es-allegra .es-season__contentCtn {
     background-image: url(./img/łąka-desktop.png);
@@ -1518,7 +1613,7 @@ html {
     background-color: #853a92;
   }
   #es-allegra.es-allegra .es-calendar__title {
-    font-size: 30px;
+    font-size: 40px;
   }
   #es-allegra.es-allegra .es-calendar__subtitle {
     font-size: 20px;
@@ -1539,15 +1634,18 @@ html {
   #es-allegra.es-allegra .es-calendar__legendText--small {
     margin-top: 0px;
   }
+  #es-allegra.es-allegra .es-season__contentDesc {
+    font-size: 18px;
+  }
   #es-allegra.es-allegra .es-ingr {
     margin: 40px;
     background-color: #853a92;
   }
   #es-allegra.es-allegra .es-ingr__title {
-    font-size: 30px;
+    font-size: 40px;
   }
   #es-allegra.es-allegra .es-ingr__subtitle {
-    font-size: 20px;
+    font-size: 25px;
   }
   #es-allegra.es-allegra .es-footer {
     margin: 40px;
