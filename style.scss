@@ -511,6 +511,61 @@ html{
                 right: 20px;
                 animation: float-pollen-5 45s infinite ;
             }
+            &--11{
+                left: 80px;
+                animation: float-pollen-1 25s infinite ;
+                animation-delay: 205s;
+            }
+            &--12{
+                left: 300px;
+                bottom: 0;
+                animation: float-pollen-2 20s infinite;
+                animation-delay: 8s;
+            }
+            &--13{
+                left: 450px;
+                bottom: 170px;
+                animation: float-pollen-3 45s infinite;
+                animation-delay: 4s;
+            }
+            &--14{
+                left: 0;
+                bottom: 50px;
+                animation: float-pollen-4 20s infinite;
+                animation-delay: 10s;
+            }
+            &--15{
+                right: 0;
+                animation: float-pollen-5 45s infinite ;
+                animation-delay: 8s;
+            }
+            &--16{
+                left: 65px;
+                animation: float-pollen-1 25s infinite ;
+                animation-delay: 15s;
+            }
+            &--17{
+                left: 300px;
+                bottom: 0;
+                animation: float-pollen-2 20s infinite;
+                animation-delay: 5s;
+            }
+            &--18{
+                left:320px;
+                bottom: 170px;
+                animation: float-pollen-3 25s infinite;
+                animation-delay: 2s;
+            }
+            &--19{
+                left: 15px;
+                bottom: 50px;
+                animation: float-pollen-4 30s infinite;
+                animation-delay: 1s;
+            }
+            &--20{
+                right: 20px;
+                animation: float-pollen-5 35s infinite ;
+            }
         }
         &--desktop{
             display: none;
@@ -875,6 +930,62 @@ html{
                 animation-delay: 1s;
             }
             &--10{
+                right: 20px;
+                animation: float-pollen-5 35s infinite ;
+            }
+
+            &--11{
+                left: 80px;
+                animation: float-pollen-1 25s infinite ;
+                animation-delay: 205s;
+            }
+            &--12{
+                left: 300px;
+                bottom: 0;
+                animation: float-pollen-2 20s infinite;
+                animation-delay: 8s;
+            }
+            &--13{
+                left: 450px;
+                bottom: 170px;
+                animation: float-pollen-3 45s infinite;
+                animation-delay: 4s;
+            }
+            &--14{
+                left: 0;
+                bottom: 50px;
+                animation: float-pollen-4 20s infinite;
+                animation-delay: 10s;
+            }
+            &--15{
+                right: 0;
+                animation: float-pollen-5 45s infinite ;
+                animation-delay: 8s;
+            }
+            &--16{
+                left: 65px;
+                animation: float-pollen-1 25s infinite ;
+                animation-delay: 15s;
+            }
+            &--17{
+                left: 300px;
+                bottom: 0;
+                animation: float-pollen-2 20s infinite;
+                animation-delay: 5s;
+            }
+            &--18{
+                left:320px;
+                bottom: 170px;
+                animation: float-pollen-3 25s infinite;
+                animation-delay: 2s;
+            }
+            &--19{
+                left: 15px;
+                bottom: 50px;
+                animation: float-pollen-4 30s infinite;
+                animation-delay: 1s;
+            }
+            &--20{
                 right: 20px;
                 animation: float-pollen-5 35s infinite ;
             }
