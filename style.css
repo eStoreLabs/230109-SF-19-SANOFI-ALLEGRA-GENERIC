@@ -1538,6 +1538,10 @@ html {
   #es-allegra.es-allegra .es-kv--mobile {
     display: none;
   }
+  #es-allegra.es-allegra .es-kv__pollen {
+    width: 8px;
+    height: 8px;
+  }
   #es-allegra.es-allegra .es-kv__title {
     font-size: 75px;
     margin-top: 275px;
@@ -1690,12 +1694,21 @@ html {
     width: 140px;
     margin-bottom: 20px;
   }
+  #es-allegra.es-allegra .es-season__single {
+    min-height: 300px;
+    min-width: 320px;
+    justify-content: flex-start;
+  }
   #es-allegra.es-allegra .es-season__iconText {
     font-size: 25px;
   }
   #es-allegra.es-allegra .es-season__contentDesc {
     font-size: 25px;
     max-width: 800px;
+  }
+  #es-allegra.es-allegra .es-season__pollen {
+    width: 8px;
+    height: 8px;
   }
   #es-allegra.es-allegra .es-calendar__title {
     font-size: 62px;
@@ -1753,5 +1766,59 @@ html {
   #es-allegra.es-allegra .es-footer__number {
     font-size: 14px;
     opacity: 0.8;
+  }
+}
+@media (max-width: 400px) {
+  #es-allegra.es-allegra .es-kv__packshot {
+    max-width: 180px;
+    bottom: 105px;
+    right: -10px;
+  }
+  #es-allegra.es-allegra .es-kv__claims {
+    margin-bottom: 80px;
+  }
+  #es-allegra.es-allegra .es-mainCtn {
+    margin-top: -90px;
+  }
+  #es-allegra.es-allegra .es-nav__link {
+    max-width: 80px;
+    min-width: 80px;
+    font-size: 9px;
+  }
+}
+@media (max-width: 359px) {
+  #es-allegra.es-allegra .es-kv__packshot {
+    max-width: 180px;
+    bottom: 105px;
+    right: -10px;
+  }
+  #es-allegra.es-allegra .es-kv__claims {
+    margin-bottom: 60px;
+  }
+  #es-allegra.es-allegra .es-mainCtn {
+    margin-top: -90px;
+  }
+  #es-allegra.es-allegra .es-nav__link {
+    max-width: 80px;
+    min-width: 80px;
+    font-size: 9px;
+  }
+}
+@media (max-width: 320px) {
+  #es-allegra.es-allegra .es-kv__packshot {
+    max-width: 180px;
+    bottom: 105px;
+    right: -10px;
+  }
+  #es-allegra.es-allegra .es-kv__claims {
+    margin-bottom: 90px;
+  }
+  #es-allegra.es-allegra .es-mainCtn {
+    margin-top: -90px;
+  }
+  #es-allegra.es-allegra .es-nav__link {
+    max-width: 80px;
+    min-width: 80px;
+    font-size: 9px;
   }
 }/*# sourceMappingURL=style.css.map */
