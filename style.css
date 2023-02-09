@@ -564,8 +564,8 @@ html {
 #es-allegra.es-allegra .es-kv--mobile {
   background-image: url(./img/allegra-kv-bg-mobile.png);
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-size: 100%;
+  background-position: top;
   display: block;
   display: flex;
   flex-direction: column;
@@ -578,20 +578,26 @@ html {
   text-shadow: 4px 3px 8px rgb(66, 68, 90);
   font-family: "Nexa-Black";
   animation: es-pulse-kv 4s infinite;
+  margin-left: 20px;
 }
 #es-allegra.es-allegra .es-kv__subtitle {
-  font-size: 12px;
+  font-size: 10px;
   background-color: #f6cc30;
-  color: #9e4ea9;
+  color: #5d337a;
   padding: 5px;
   margin-top: -20px;
   font-family: "Nexa-Heavy";
+  margin-left: 20px;
+  width: 80%;
   animation: es-pulse-kv 4s infinite;
   opacity: 1;
 }
 #es-allegra.es-allegra .es-kv__content {
   position: relative;
   display: flex;
+}
+#es-allegra.es-allegra .es-kv__claims {
+  margin-bottom: 40px;
 }
 #es-allegra.es-allegra .es-kv__claim {
   font-size: 16px;
@@ -600,21 +606,23 @@ html {
   margin-bottom: 2px;
   font-family: "Nexa-Heavy";
   text-shadow: 4px 3px 8px rgb(21, 21, 22);
+  text-transform: uppercase;
 }
 #es-allegra.es-allegra .es-kv__claim sup {
   font-size: 8px;
 }
 #es-allegra.es-allegra .es-kv__packshot {
   position: absolute;
-  max-width: 280px;
+  max-width: 250px;
   right: -20px;
-  bottom: 30px;
+  bottom: 50px;
 }
 #es-allegra.es-allegra .es-mainCtn {
   background-color: #9e4ea9;
   width: 100%;
   z-index: 10;
   position: relative;
+  margin-top: -40px;
 }
 #es-allegra.es-allegra .es-nav {
   display: flex;
