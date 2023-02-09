@@ -50,6 +50,17 @@ html{
         opacity: 1;
       }
 }
+@keyframes es-pulse-kv{
+    0%{
+        transform: scale(1);
+      }
+      50%{
+        transform: scale(1.02);
+      }
+      100%{
+        transform: scale(1);
+      }
+}
 @keyframes es-pulse{
     0%{
         transform: scale(1);
@@ -75,21 +86,27 @@ html{
 @keyframes es-pulse-2{
     0%{
         transform: scale(1);
+        filter: blur(4px),brightness(50);
       }
       20%{
         transform: scale(1.2);
+        filter: blur(4px),brightness(50);
       }
       40%{
         transform: scale(.8);
+        filter: blur(4px),brightness(50);
       }
       60%{
         transform: scale(1.2);
+        filter: blur(4px),brightness(100);
       }
       80%{
         transform: scale(.8);
+        filter: blur(4px),brightness(50);
       }
       100%{
         transform: scale(1);
+        filter: blur(4px),brightness(50);
       }
 }
 @keyframes float-pollen-1{
@@ -406,7 +423,7 @@ html{
     font-size: 25px;
     font-weight: 300;
     line-height: 1.2;
-    max-width: 960px;
+    max-width:1200px;
     min-width: 320px;
     margin: 0 auto;
     padding: 0;
@@ -587,7 +604,7 @@ html{
             margin-top: 80px;
             text-shadow: 4px 3px 8px rgba(66, 68, 90, 1);
             font-family: $font-black;
-            animation: es-move-text 2s forwards;
+            animation: es-pulse-kv 4s infinite;
         }
         &__subtitle{
             font-size: 12px;
@@ -597,9 +614,8 @@ html{
             margin-top: -20px;
             font-family: $font-Heavy;
             
-            animation: es-move-text 2s forwards;
-            animation-delay: 1s;
-            opacity: 0;
+            animation: es-pulse-kv 4s infinite;
+            opacity: 1;
         }
         &__content{
             position: relative;
@@ -698,7 +714,18 @@ html{
         &__icon{
             max-width: 80px;
             margin-right: 20px;
-            animation: es-pulse 3s infinite;
+            animation: es-pulse 2s infinite;
+            &--1{
+                animation-delay: 2s;
+            }
+            &--2{
+                animation-delay: 4s;
+                animation: es-pulse 4s infinite;
+            }
+            &--3{
+                animation-delay: 6s;
+                animation: es-pulse 6s infinite;
+            }
         }
         &__textCtn{
             display: flex;
@@ -823,7 +850,7 @@ html{
         &__icon{
             width: 90px;
             margin-bottom: 20px;
-            animation: es-pulse 3s infinite;
+
         }
         &__textCtn{
             display: flex;
@@ -840,6 +867,7 @@ html{
             text-align: center;
             &--yellow{
                 color: $secondary-bg-color;
+                font-family: $font-Heavy;
 
             }
         }
@@ -1030,7 +1058,6 @@ html{
         &__icon{
             width: 90px;
             margin-bottom: 20px;
-            animation: es-pulse 3s infinite;
         }
         &__iconText{
             font-size: 16px;
@@ -1550,14 +1577,14 @@ html{
 @media (min-width: 950px){
     #es-allegra.es-allegra{
         font-family: $font-black;
-        font-size: 25px;
+        font-size: 35px;
         font-weight: 300;
         line-height: 1.2;
         color: #fff;
         background-color: $primary-bg-color-dark;
         .es-kv{
             padding: 20px 0;
-        min-height: 600px;
+        min-height: 800px;
         &--desktop{
             background-image: url(./img/allegra-kv-bg-desktop.png);
             background-repeat: no-repeat;
@@ -1571,31 +1598,32 @@ html{
             display: none;
         }
         &__title{
-            font-size: 55px;
-            margin-top: 180px;
-            margin-left: 50px;
+            font-size: 75px;
+            margin-top: 275px;
+            margin-left: 100px;
             line-height: 1;
             
         }
         &__subtitle{
-            font-size: 20px;
+            font-size: 24px;
             padding:5px 10px;
-            margin-top: -20px;
+            margin-top: -50px;
             font-family: $font-Heavy;
             max-width: fit-content;
-            margin-left: 50px;
+            margin-left: 100px;
+            color: $primary-extra-dark;
         }
         &__content{
             position: relative;
             display: flex;
-            margin-left: 50px;
+            margin-left: 100px;
 
         }
         &__claims{
             margin-top: -50px;
         }
         &__claim{
-            font-size: 16px;
+            font-size: 25px;
             margin: 0;
             padding: 0;
             margin-bottom: 2px;
@@ -1606,9 +1634,9 @@ html{
         }
         &__packshot{
             position: absolute;
-            max-width:380px;
-            right: -15px;
-            bottom: -40px;
+            max-width:450px;
+            right: -05px;
+            bottom: -10px;
         }
     }
     .es-mainCtn{
@@ -1621,12 +1649,184 @@ html{
     }
     .es-nav{
         &__link{
-            font-size: 12px;
-            min-width: 110px;
-            max-width: 110px;
-            min-height: 40px;
+            font-size: 20px;
+            min-width: 190px;
+            max-width: 190px;
+            min-height: 60px;
             
         }
     }
+    .es-about{
+        &__title{
+            font-size: 65px;
+            margin: 30px 0;
+        }
+        &__titleImg{
+            max-width: 300px;
+        }
+        &__iconsCtn{
+            margin-top: 0px;
+        }
+        &__single{
+            max-width: 280px;
+            min-width: 280px;
+            min-height: 350px;
+        }
+        &__icon{
+            max-width: 140px;
+        }
+        &__subtitle{
+            font-size: 28px;
+        }
+        &__desc{
+            font-size: 22px;
+            line-height: 1;
+        }
+    }
+    .es-symptoms{
+        padding: 10px 0;
+        &__title{
+            font-size: 62px;
+            margin: 20px 0;
+        }
+        &__redness{
+            top: 42%;
+            left:38%;
+            width: 25px;
+            height: 20px;
+            &--left{
+                top:32%;
+                left: 30%;
+                filter: blur(4px);
+                width: 22px;
+                height: 18px;
+            }
+            &--right{
+                top:32%;
+                left: 50%;
+                filter: blur(4px);
+                width: 22px;
+                height: 18px;
+            }
+        }
+        &__icon{
+            width: 140px;
+        }
+        &__textCtn{
+            max-width: 300px;
+            min-width: 300px;
+        }
+        &__listItem{
+            font-size: 22px;
+        }
+        &__claim{
+            font-size: 25px;
+        }
+    }
+    .es-doze{
+        padding: 10px 0;
+        &__title{
+            font-size: 62px;
+            margin: 10px 0;
+        }
+        &__icon{
+            width: 140px;
+            margin-top: -20px;
+        }
+        &__text{
+            font-size: 25px;
+        }
+        &__claim{
+            font-size: 25px;
+        }
+    }
+    .es-season{
+        &__title{
+            font-size: 62px;
+            line-height: .8;
+        }
+        &__contentCtn{
+            min-height: 500px;
+        }
+        &__contentText{
+            font-size: 42px;
+            line-height: 1.1;
+        }
+        &__icon{
+            width: 140px;
+            margin-bottom: 20px;
+        }
+        &__iconText{
+            font-size: 25px;
+        }
+        &__contentDesc{
+            font-size: 25px;
+            max-width: 800px;
+        }
+    }
+    .es-calendar{
+        &__title{
+            font-size: 62px;
+            line-height: 1;
+        }
+        &__subtitle{
+            font-size: 25px;
+        }
+        &__mainCtn{
+            margin-top: 40px;
+            padding:  50px;
+        }
+        &__names{
+            max-width: 200px;
+        }
+        &__name{
+            font-size: 14px;
+        }
+        &__imgCtn{
+            max-width: 800px;
+        }
+        &__img{
+            width: 100%;
+            height: 510px;
+        }
+        &__legend{
+            max-width: 100%;
+        }
+        &__legendText{
+            font-size: 18px;
+            &--small{
+                font-size: 12px;
+                text-align: justify;
+                max-width: 300px;
+                margin-left: 250px;
+            }
+        }
+    }
+    .es-ingr{
+        &__title{
+            font-size: 62px;
+        }
+        &__text{
+            font-size: 28px;
+        }
+        &__desc{
+            font-size: 25px;
+            max-width: 100%;
+        }
+    }
+    .es-footer{
+        &__claim{
+            font-size: 12px;
+            opacity: .8;
+        }
+        &__warning{
+            font-size: 25px;
+        }
+        &__number{
+            font-size: 14px;
+            opacity: .8;
+        }
+    }
+
 }
 }
