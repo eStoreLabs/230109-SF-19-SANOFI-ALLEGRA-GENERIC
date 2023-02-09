@@ -15,6 +15,17 @@ html {
   scroll-behavior: smooth;
 }
 
+@keyframes es-light {
+  0% {
+    filter: brightness(1);
+  }
+  50% {
+    filter: brightness(1.6);
+  }
+  100% {
+    filter: brightness(1);
+  }
+}
 @keyframes es-move-text {
   0% {
     opacity: 0;
@@ -450,6 +461,7 @@ html {
   z-index: 10;
   bottom: 20px;
   opacity: 0;
+  filter: blur(1px);
 }
 #es-allegra.es-allegra .es-kv__pollen--1 {
   left: 80px;
@@ -885,6 +897,7 @@ html {
   z-index: 10;
   bottom: 20px;
   opacity: 0;
+  filter: blur(1px);
 }
 #es-allegra.es-allegra .es-season__pollen--1 {
   left: 80px;
@@ -1028,10 +1041,21 @@ html {
 }
 #es-allegra.es-allegra .es-season__iconCtn--meadow {
   margin-top: 40px;
+  background-color: #fff;
+  padding: 30px;
+  max-width: 85px;
+  max-height: 85px;
+  border-radius: 50%;
 }
 #es-allegra.es-allegra .es-season__icon {
   width: 90px;
   margin-bottom: 20px;
+}
+#es-allegra.es-allegra .es-season__icon--meadow {
+  margin: 5px;
+  margin-top: 8px;
+  height: 90px;
+  animation: es-light 2s infinite;
 }
 #es-allegra.es-allegra .es-season__iconText {
   font-size: 16px;
