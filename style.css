@@ -1017,9 +1017,6 @@ html {
   margin-top: 0;
   padding: 0;
 }
-#es-allegra.es-allegra .es-season__contentText--twoWeeks {
-  animation: es-two-weeks 4s forwards;
-}
 #es-allegra.es-allegra .es-season__iconsCtn {
   display: flex;
   flex-wrap: wrap;
