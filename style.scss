@@ -1073,22 +1073,15 @@ html{
             align-items: center;
             &--meadow{
                 margin-top: 40px;
-                background-color: #fff;
-                padding: 30px;
-                max-width: 85px;
-                max-height: 85px;
-                border-radius: 50%;
             }
         }
         &__icon{
             width: 90px;
             margin-bottom: 20px;
             &--meadow{
-                margin: 5px;
-                margin-top: 8px;
-                height: 90px;
-                animation: es-light 2s infinite;
+                animation: es-pulse 2s infinite;
             }
+          
         }
         &__iconText{
             font-size: 16px;
