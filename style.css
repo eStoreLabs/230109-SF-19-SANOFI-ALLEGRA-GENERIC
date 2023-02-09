@@ -589,7 +589,7 @@ html {
   margin-top: 80px;
   text-shadow: 4px 3px 8px rgb(66, 68, 90);
   font-family: "Nexa-Black";
-  animation: es-pulse-kv 4s infinite;
+  animation: es-pulse-kv 2s infinite;
   margin-left: 20px;
 }
 #es-allegra.es-allegra .es-kv__subtitle {
@@ -601,7 +601,7 @@ html {
   font-family: "Nexa-Heavy";
   margin-left: 20px;
   width: 80%;
-  animation: es-pulse-kv 4s infinite;
+  animation: es-pulse-kv 2s infinite;
   opacity: 1;
 }
 #es-allegra.es-allegra .es-kv__content {
