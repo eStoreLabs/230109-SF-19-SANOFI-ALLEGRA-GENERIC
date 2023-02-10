@@ -973,6 +973,7 @@ html {
   margin: 10px;
   background-color: #9e4ea9;
   padding: 20px 0;
+  padding-bottom: 0;
 }
 #es-allegra.es-allegra .es-season__title {
   text-transform: uppercase;
@@ -1236,7 +1237,7 @@ html {
   justify-content: flex-start;
   align-items: center;
   padding: 20px 0;
-  margin: 20px 0;
+  margin-top: 20px;
 }
 #es-allegra.es-allegra .es-season__single {
   display: flex;
