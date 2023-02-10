@@ -14,7 +14,64 @@
 html {
   scroll-behavior: smooth;
 }
-
+@keyframes es-pulse-icon-1 {
+  0% {
+    transform: scale(1);
+  }
+  20% {
+    transform: scale(1.1);
+  }
+  40% {
+    transform: scale(1);
+  }
+  60% {
+    transform: scale(1);
+  }
+  80% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}@keyframes es-pulse-icon-2 {
+  0% {
+    transform: scale(1);
+  }
+  20% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1.1);
+  }
+  60% {
+    transform: scale(1);
+  }
+  80% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}@keyframes es-pulse-icon-3 {
+  0% {
+    transform: scale(1);
+  }
+  20% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1);
+  }
+  60% {
+    transform: scale(1.1);
+  }
+  80% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 @keyframes es-light {
   0% {
     filter: brightness(1);
@@ -814,13 +871,13 @@ html {
   animation: es-pulse 2s infinite;
 }
 #es-allegra.es-allegra .es-about__icon--1 {
-  animation: es-pulse 2s infinite 1s;
+  animation: es-pulse-icon-1 2s infinite ;
 }
 #es-allegra.es-allegra .es-about__icon--2 {
-  animation: es-pulse 2s infinite 3s;
+  animation: es-pulse-icon-2 2s infinite ;
 }
 #es-allegra.es-allegra .es-about__icon--3 {
-  animation: es-pulse 2s infinite 5s;
+  animation: es-pulse-icon-3 2s infinite ;
 }
 #es-allegra.es-allegra .es-about__textCtn {
   display: flex;
