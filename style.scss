@@ -595,6 +595,114 @@ html{
                 right: 20px;
                 animation: float-pollen-5 35s infinite ;
             }
+            &--21{
+                right: 80px;
+                animation: float-pollen-1 35s infinite ;
+            }
+            &--22{
+                right: 300px;
+                bottom: 0;
+                animation: float-pollen-2 30s infinite;
+                animation-delay: 2.5s;
+            }
+            &--23{
+                right: 450px;
+                bottom: 30%;
+                animation: float-pollen-3 35s infinite;
+                animation-delay: 2s;
+            }
+            &--24{
+                right: 0;
+                bottom: 50px;
+                animation: float-pollen-4 30s infinite;
+                animation-delay: 1s;
+            }
+            &--25{
+                left: 10px;
+                animation: float-pollen-5 35s infinite ;
+            }
+            &--26{
+                right: 65px;
+                animation: float-pollen-1 35s infinite ;
+            }
+            &--27{
+                right: 300px;
+                bottom: 0;
+                animation: float-pollen-2 30s infinite;
+                animation-delay: 3s;
+            }
+            &--28{
+                right:320px;
+                bottom: 40%;
+                animation: float-pollen-3 35s infinite;
+                animation-delay: 2s;
+            }
+            &--29{
+                right: 15px;
+                bottom: 50px;
+                animation: float-pollen-4 40s infinite;
+                animation-delay: 1s;
+            }
+            &--30{
+                left: 20px;
+                animation: float-pollen-5 45s infinite ;
+            }
+            &--31{
+                right: 80px;
+                animation: float-pollen-1 25s infinite ;
+                animation-delay: 2s;
+            }
+            &--32{
+                right: 300px;
+                bottom: 0;
+                animation: float-pollen-2 20s infinite;
+                animation-delay: 2s;
+            }
+            &--33{
+                right: 450px;
+                bottom: 30%;
+                animation: float-pollen-3 45s infinite;
+                animation-delay: 4s;
+            }
+            &--34{
+                right: 0;
+                bottom: 10%;
+                animation: float-pollen-4 20s infinite;
+                animation-delay: 4s;
+            }
+            &--35{
+                left: 0;
+                animation: float-pollen-5 45s infinite ;
+                animation-delay: 2.5s;
+            }
+            &--36{
+                right: 65px;
+                animation: float-pollen-1 25s infinite ;
+                animation-delay: 1s;
+            }
+            &--37{
+                right: 300px;
+                bottom: 20%;
+                animation: float-pollen-2 20s infinite;
+                animation-delay: 2s;
+            }
+            &--38{
+                right:320px;
+                bottom: 30%;
+                animation: float-pollen-3 25s infinite;
+                animation-delay: 2s;
+            }
+            &--39{
+                right: 15px;
+                bottom: 10%;
+                animation: float-pollen-4 30s infinite;
+                animation-delay: 1s;
+            }
+            &--40{
+                left: 20px;
+                animation: float-pollen-5 35s infinite ;
+            }
+            
         }
         &--desktop{
             display: none;
@@ -735,15 +843,13 @@ html{
             margin-right: 20px;
             animation: es-pulse 2s infinite;
             &--1{
-                animation-delay: 2s;
+                animation: es-pulse 2s infinite 1s;
             }
             &--2{
-                animation-delay: 4s;
-                animation: es-pulse 4s infinite;
+                animation: es-pulse 2s infinite 3s;
             }
             &--3{
-                animation-delay: 6s;
-                animation: es-pulse 6s infinite;
+                animation: es-pulse 2s infinite 5s;
             }
         }
         &__textCtn{
@@ -986,13 +1092,13 @@ html{
             &--11{
                 left: 80px;
                 animation: float-pollen-1 25s infinite ;
-                animation-delay: 205s;
+                animation-delay: 2s;
             }
             &--12{
                 left: 300px;
                 bottom: 0;
                 animation: float-pollen-2 20s infinite;
-                animation-delay: 8s;
+                animation-delay: 2s;
             }
             &--13{
                 left: 450px;
@@ -1004,7 +1110,7 @@ html{
                 left: 0;
                 bottom: 50px;
                 animation: float-pollen-4 20s infinite;
-                animation-delay: 10s;
+                animation-delay: 4.5s;
             }
             &--15{
                 right: 0;
@@ -1014,13 +1120,13 @@ html{
             &--16{
                 left: 65px;
                 animation: float-pollen-1 25s infinite ;
-                animation-delay: 15s;
+                animation-delay: 4s;
             }
             &--17{
                 left: 300px;
                 bottom: 0;
                 animation: float-pollen-2 20s infinite;
-                animation-delay: 5s;
+                animation-delay: 1s;
             }
             &--18{
                 left:320px;
@@ -1036,6 +1142,113 @@ html{
             }
             &--20{
                 right: 20px;
+                animation: float-pollen-5 35s infinite ;
+            }
+            &--21{
+                right: 80px;
+                animation: float-pollen-1 35s infinite ;
+            }
+            &--22{
+                right: 300px;
+                bottom: 0;
+                animation: float-pollen-2 30s infinite;
+                animation-delay: 2.5s;
+            }
+            &--23{
+                right: 450px;
+                bottom: 30%;
+                animation: float-pollen-3 35s infinite;
+                animation-delay: 2s;
+            }
+            &--24{
+                right: 0;
+                bottom: 50px;
+                animation: float-pollen-4 30s infinite;
+                animation-delay: 1s;
+            }
+            &--25{
+                left: 10px;
+                animation: float-pollen-5 35s infinite ;
+            }
+            &--26{
+                right: 65px;
+                animation: float-pollen-1 35s infinite ;
+            }
+            &--27{
+                right: 300px;
+                bottom: 0;
+                animation: float-pollen-2 30s infinite;
+                animation-delay: 3s;
+            }
+            &--28{
+                right:320px;
+                bottom: 40%;
+                animation: float-pollen-3 35s infinite;
+                animation-delay: 2s;
+            }
+            &--29{
+                right: 15px;
+                bottom: 50px;
+                animation: float-pollen-4 40s infinite;
+                animation-delay: 1s;
+            }
+            &--30{
+                left: 20px;
+                animation: float-pollen-5 45s infinite ;
+            }
+            &--31{
+                right: 80px;
+                animation: float-pollen-1 25s infinite ;
+                animation-delay: 2s;
+            }
+            &--32{
+                right: 300px;
+                bottom: 0;
+                animation: float-pollen-2 20s infinite;
+                animation-delay: 2s;
+            }
+            &--33{
+                right: 450px;
+                bottom: 30%;
+                animation: float-pollen-3 45s infinite;
+                animation-delay: 4s;
+            }
+            &--34{
+                right: 0;
+                bottom: 10%;
+                animation: float-pollen-4 20s infinite;
+                animation-delay: 4s;
+            }
+            &--35{
+                left: 0;
+                animation: float-pollen-5 45s infinite ;
+                animation-delay: 2.5s;
+            }
+            &--36{
+                right: 65px;
+                animation: float-pollen-1 25s infinite ;
+                animation-delay: 1s;
+            }
+            &--37{
+                right: 300px;
+                bottom: 20%;
+                animation: float-pollen-2 20s infinite;
+                animation-delay: 2s;
+            }
+            &--38{
+                right:320px;
+                bottom: 30%;
+                animation: float-pollen-3 25s infinite;
+                animation-delay: 2s;
+            }
+            &--39{
+                right: 15px;
+                bottom: 10%;
+                animation: float-pollen-4 30s infinite;
+                animation-delay: 1s;
+            }
+            &--40{
+                left: 20px;
                 animation: float-pollen-5 35s infinite ;
             }
         }
@@ -1425,6 +1638,7 @@ html{
         }
         &__iconsCtn{
             justify-content: center;
+            margin: 20px 0 0 0;
         }
         &__single{
             flex-direction: column;
@@ -1912,8 +2126,14 @@ html{
                 font-size: 9px;
             }
         }
+        .es-season{
+            &__contentDesc{
+                font-size: 16px;
+            }
+        }
     }
 }
+
 @media (max-width: 320px){
     #es-allegra.es-allegra{
         .es-kv{

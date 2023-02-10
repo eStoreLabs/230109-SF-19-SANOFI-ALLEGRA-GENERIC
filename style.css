@@ -706,15 +706,13 @@ html {
   animation: es-pulse 2s infinite;
 }
 #es-allegra.es-allegra .es-about__icon--1 {
-  animation-delay: 2s;
+  animation: es-pulse 2s infinite 1s;
 }
 #es-allegra.es-allegra .es-about__icon--2 {
-  animation-delay: 4s;
-  animation: es-pulse 4s infinite;
+  animation: es-pulse 2s infinite 3s;
 }
 #es-allegra.es-allegra .es-about__icon--3 {
-  animation-delay: 6s;
-  animation: es-pulse 6s infinite;
+  animation: es-pulse 2s infinite 5s;
 }
 #es-allegra.es-allegra .es-about__textCtn {
   display: flex;
