@@ -871,13 +871,13 @@ html {
   animation: es-pulse 2s infinite;
 }
 #es-allegra.es-allegra .es-about__icon--1 {
-  animation: es-pulse-icon-1 2s infinite ;
+  animation: es-pulse-icon-1 3s infinite ;
 }
 #es-allegra.es-allegra .es-about__icon--2 {
-  animation: es-pulse-icon-2 2s infinite ;
+  animation: es-pulse-icon-2 3s infinite ;
 }
 #es-allegra.es-allegra .es-about__icon--3 {
-  animation: es-pulse-icon-3 2s infinite ;
+  animation: es-pulse-icon-3 3s infinite ;
 }
 #es-allegra.es-allegra .es-about__textCtn {
   display: flex;
