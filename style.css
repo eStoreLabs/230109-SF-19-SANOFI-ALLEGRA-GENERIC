@@ -534,7 +534,7 @@ html {
 }
 #es-allegra.es-allegra .es-kv__pollen--14 {
   left: 0;
-  bottom: 50px;
+  bottom: 50%;
   animation: float-pollen-4 20s infinite;
   animation-delay: 10s;
 }
@@ -562,13 +562,121 @@ html {
 }
 #es-allegra.es-allegra .es-kv__pollen--19 {
   left: 15px;
-  bottom: 50px;
+  bottom: 50%;
   animation: float-pollen-4 30s infinite;
   animation-delay: 1s;
 }
 #es-allegra.es-allegra .es-kv__pollen--20 {
   right: 20px;
   animation: float-pollen-5 35s infinite;
+}
+#es-allegra.es-allegra .es-kv__pollen--21 {
+  right: 80px;
+  animation: float-pollen-1 35s infinite;
+}
+#es-allegra.es-allegra .es-kv__pollen--22 {
+  right: 300px;
+  bottom: 0;
+  animation: float-pollen-2 30s infinite;
+  animation-delay: 5s;
+}
+#es-allegra.es-allegra .es-kv__pollen--23 {
+  right: 450px;
+  bottom: 170px;
+  animation: float-pollen-3 35s infinite;
+  animation-delay: 2s;
+}
+#es-allegra.es-allegra .es-kv__pollen--24 {
+  right: 0;
+  bottom: 50px;
+  animation: float-pollen-4 30s infinite;
+  animation-delay: 1s;
+}
+#es-allegra.es-allegra .es-kv__pollen--25 {
+  left: 0;
+  animation: float-pollen-5 35s infinite;
+}
+#es-allegra.es-allegra .es-kv__pollen--26 {
+  left: 65px;
+  animation: float-pollen-1 35s infinite;
+}
+#es-allegra.es-allegra .es-kv__pollen--27 {
+  right: 300px;
+  bottom: 0;
+  animation: float-pollen-2 30s infinite;
+  animation-delay: 5s;
+}
+#es-allegra.es-allegra .es-kv__pollen--28 {
+  right: 320px;
+  bottom: 170px;
+  animation: float-pollen-3 35s infinite;
+  animation-delay: 2s;
+}
+#es-allegra.es-allegra .es-kv__pollen--29 {
+  right: 15px;
+  bottom: 50%;
+  animation: float-pollen-4 40s infinite;
+  animation-delay: 1s;
+}
+#es-allegra.es-allegra .es-kv__pollen--30 {
+  left: 20px;
+  animation: float-pollen-5 45s infinite;
+}
+#es-allegra.es-allegra .es-kv__pollen--31 {
+  right: 80px;
+  bottom: 50%;
+  animation: float-pollen-1 25s infinite;
+  animation-delay: 5s;
+}
+#es-allegra.es-allegra .es-kv__pollen--32 {
+  right: 300px;
+  bottom: 0;
+  animation: float-pollen-2 20s infinite;
+  animation-delay: 8s;
+}
+#es-allegra.es-allegra .es-kv__pollen--33 {
+  right: 450px;
+  bottom: 170px;
+  animation: float-pollen-3 45s infinite;
+  animation-delay: 4s;
+}
+#es-allegra.es-allegra .es-kv__pollen--34 {
+  right: 0;
+  bottom: 50%;
+  animation: float-pollen-4 20s infinite;
+  animation-delay: 10s;
+}
+#es-allegra.es-allegra .es-kv__pollen--35 {
+  right: 0;
+  animation: float-pollen-5 45s infinite;
+  animation-delay: 8s;
+}
+#es-allegra.es-allegra .es-kv__pollen--36 {
+  right: 65px;
+  animation: float-pollen-1 25s infinite;
+  animation-delay: 7s;
+}
+#es-allegra.es-allegra .es-kv__pollen--37 {
+  right: 300px;
+  bottom: 0;
+  animation: float-pollen-2 20s infinite;
+  animation-delay: 5s;
+}
+#es-allegra.es-allegra .es-kv__pollen--38 {
+  right: 320px;
+  bottom: 170px;
+  animation: float-pollen-3 25s infinite;
+  animation-delay: 2s;
+}
+#es-allegra.es-allegra .es-kv__pollen--39 {
+  left: 20px;
+  bottom: 50%;
+  animation: float-pollen-4 30s infinite;
+  animation-delay: 1s;
+}
+#es-allegra.es-allegra .es-kv__pollen--40 {
+  right: 20px;
+  animation: float-pollen-5 30s infinite;
 }
 #es-allegra.es-allegra .es-kv--desktop {
   display: none;
@@ -789,11 +897,11 @@ html {
   margin-right: 10px;
 }
 #es-allegra.es-allegra .es-symptoms__textCtn {
-  max-width: 200px;
-  min-width: 200px;
+  max-width: 210px;
+  min-width: 210px;
 }
 #es-allegra.es-allegra .es-symptoms__listItem {
-  font-size: 14px;
+  font-size: 16px;
   font-family: "Nexa-Heavy";
 }
 #es-allegra.es-allegra .es-symptoms__claims {
@@ -1001,6 +1109,113 @@ html {
   animation-delay: 1s;
 }
 #es-allegra.es-allegra .es-season__pollen--20 {
+  right: 100px;
+  animation: float-pollen-5 35s infinite;
+}
+#es-allegra.es-allegra .es-season__pollen--21 {
+  right: 80px;
+  animation: float-pollen-1 25s infinite;
+}
+#es-allegra.es-allegra .es-season__pollen--22 {
+  right: 300px;
+  bottom: 0;
+  animation: float-pollen-2 20s infinite;
+  animation-delay: 5s;
+}
+#es-allegra.es-allegra .es-season__pollen--23 {
+  right: 450px;
+  bottom: 170px;
+  animation: float-pollen-3 25s infinite;
+  animation-delay: 2s;
+}
+#es-allegra.es-allegra .es-season__pollen--24 {
+  right: 160px;
+  bottom: 50px;
+  animation: float-pollen-4 20s infinite;
+  animation-delay: 1s;
+}
+#es-allegra.es-allegra .es-season__pollen--25 {
+  right: 0;
+  animation: float-pollen-5 25s infinite;
+}
+#es-allegra.es-allegra .es-season__pollen--26 {
+  right: 65px;
+  animation: float-pollen-1 25s infinite;
+}
+#es-allegra.es-allegra .es-season__pollen--27 {
+  right: 100px;
+  bottom: 0;
+  animation: float-pollen-2 20s infinite;
+  animation-delay: 5s;
+}
+#es-allegra.es-allegra .es-season__pollen--28 {
+  right: 120px;
+  bottom: 170px;
+  animation: float-pollen-3 25s infinite;
+  animation-delay: 2s;
+}
+#es-allegra.es-allegra .es-season__pollen--29 {
+  right: 150px;
+  bottom: 50%;
+  animation: float-pollen-4 30s infinite;
+  animation-delay: 1s;
+}
+#es-allegra.es-allegra .es-season__pollen--30 {
+  left: 120px;
+  animation: float-pollen-5 35s infinite;
+}
+#es-allegra.es-allegra .es-season__pollen--31 {
+  left: 80px;
+  animation: float-pollen-1 25s infinite;
+  animation-delay: 5s;
+}
+#es-allegra.es-allegra .es-season__pollen--32 {
+  left: 100px;
+  bottom: 0;
+  animation: float-pollen-2 20s infinite;
+  animation-delay: 8s;
+}
+#es-allegra.es-allegra .es-season__pollen--33 {
+  left: 150px;
+  bottom: 170px;
+  animation: float-pollen-3 45s infinite;
+  animation-delay: 4s;
+}
+#es-allegra.es-allegra .es-season__pollen--34 {
+  right:  150px;
+  bottom: 50%;
+  animation: float-pollen-4 20s infinite;
+  animation-delay: 10s;
+}
+#es-allegra.es-allegra .es-season__pollen--35 {
+  right: 50px;
+  animation: float-pollen-5 45s infinite;
+  animation-delay: 8s;
+}
+#es-allegra.es-allegra .es-season__pollen--36 {
+  left: 65px;
+  animation: float-pollen-1 25s infinite;
+  animation-delay: 15s;
+}
+#es-allegra.es-allegra .es-season__pollen--37 {
+  left: 100px;
+  bottom: 0;
+  animation: float-pollen-2 20s infinite;
+  animation-delay: 5s;
+}
+#es-allegra.es-allegra .es-season__pollen--38 {
+  left: 120px;
+  bottom: 170px;
+  animation: float-pollen-3 25s infinite;
+  animation-delay: 2s;
+}
+#es-allegra.es-allegra .es-season__pollen--39 {
+  left: 15px;
+  bottom: 50%;
+  animation: float-pollen-4 30s infinite;
+  animation-delay: 1s;
+}
+#es-allegra.es-allegra .es-season__pollen--40 {
   right: 20px;
   animation: float-pollen-5 35s infinite;
 }
