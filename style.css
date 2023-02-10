@@ -1937,11 +1937,11 @@ html {
     width: 140px;
   }
   #es-allegra.es-allegra .es-symptoms__textCtn {
-    max-width: 300px;
-    min-width: 300px;
+    max-width: 310px;
+    min-width: 310px;
   }
   #es-allegra.es-allegra .es-symptoms__listItem {
-    font-size: 22px;
+    font-size: 25px;
   }
   #es-allegra.es-allegra .es-symptoms__claim {
     font-size: 25px;
